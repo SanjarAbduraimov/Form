@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Icon/css/all.min.css">
+        <title>Document</title>
+    </head>
+    <body style="background: #9575f4;"> 
+        <div class="shadow-lg rounded bg-white pb-5 my-5 mx-3">
+            <header class="container">
+                <nav class="navbar navbar-expand-lg px-0 py-4">
+                    <a class="navbar-brand" href="#"><h1 class="h4 m-0">SHOPPING</h1></a>
+                    <a class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbar">
+                        <i class="fas fa-bars"></i>
+                    </a>
+    
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active dropright">
+                                <a class="nav-link dropdown-toggle text-muted" href="#" data-toggle="dropdown">Shopping Bag</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">1</a>
+                                    <a class="dropdown-item" href="#">2</a>
+                                    <a class="dropdown-item" href="#">3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropright">
+                                <a class="nav-link dropdown-toggle " href="#" data-toggle="dropdown">Checkout</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">1</a>
+                                    <a class="dropdown-item" href="#">2</a>
+                                    <a class="dropdown-item" href="#">3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link text-muted" href="#">Confirmation</a></li>
+                        </ul>
+                        <a href="#"><i class="fas fa-baby-carriage"></i></a>
+                    </div>
+                </nav>
+            </header>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card bg-light">
+                            <div class="card-body py-4 px-5">
+                                <h2 class="h3 text-center">Personal information</h2>
+                                <form action="SanCo.uz" method="get">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label class="small text-muted" for="name">First Name</label>
+                                            <input required type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label class="small text-muted" for="name">Last Name</label>
+                                            <input required type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="small text-muted" for="email">Email Adress</label>
+                                        <input required type="email" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="small text-muted" for="adress">Street</label>
+                                        <input required type="text" class="form-control">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label class="small text-muted" for="adress">City</label>
+                                            <input required type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label class="small text-muted" for="adress">Country</label>
+                                            <select class="form-control">
+                                                <option value="France">France</option>
+                                                <option value="Uzbekistan">Uzbekistan</option>
+                                                <option value="USA">USA</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="small text-muted" for="phone">Phone number</label>
+                                        <input required type="tel" name="number" class="form-control" maxlength="9">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0">
+                            <div class="card-body p-0">
+                                <div class="bg-light border rounded py-4 px-5">
+                                    <h2 class="h3 text-center mb-3">Delivery</h2>
+                                    <p class="small text-muted mb-1">Delivery fee</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="bg-white border rounded text-center d-flex flex-column justify-content-center" style="width: 45%; height: 8rem;">
+                                            <h2>0 $</h2>
+                                            <p class="text-muted m-0">3-4 weeks</p>
+                                        </div>
+                                        <div class="bg-primary text-white border rounded text-center d-flex flex-column justify-content-center" style="width: 45%; height: 8rem">
+                                            <h2 class="">5 $</h2>
+                                            <p class="text-dark m-0">2-5 days</p>
+                                        </div>
+                                    </div>
+                                    <p class="small text-muted mt-3 m-0">Estimated delivery date: <b>August 4th.</b></p>
+                                    <p class="small text-muted m-0">Every package has a tracking number.</p>
+                                </div>
+                                <form class="mt-5" action="SanCo.uz" method="get">
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="checkbox1">
+                                        <label class="form-check-label text-muted" for="checkbox1">Subscribe to our newsletter</label>
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="checkbox2">
+                                        <label class="form-check-label text-muted" for="checkbox2">Create an account</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block py-4">Confirm my order</button>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+            
+            
+        <script src="bootstrap/js/jquery.min.js"></script>    
+        <script src="bootstrap/js/popper.js"></script>    
+        <script src="bootstrap/js/bootstrap.min.js"></script>    
+    </body>
+</html>
